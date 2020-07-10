@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Chart from './components1/Chart/Chart';
 import Cards from './components1/Cards/Cards'
