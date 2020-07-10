@@ -7,7 +7,7 @@ import styles from './Chart.module.css';
 const Chart = ({data:{confirmed ,deaths ,recovered},country}) => {
     const [dailyData, setDailyData]=useState([])
 
-    useEffect(()=>{
+    useEffect((dailyData)=>{
         const fetchApi=async ()=>{
             setDailyData(await fetchDailyData());
         }
