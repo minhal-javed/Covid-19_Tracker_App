@@ -7,7 +7,7 @@ import Country from './components1/CountryPicker/CountryPicker'
 import styles from './App.module.css';
 import Header from './components/Header';
 import fetchData from './API/index'
-
+import Footer from './components1/Footer/Footer'
 
 
 
@@ -43,7 +43,10 @@ class App extends React.Component {
 
 
 
+
        </div>
+        <Footer />
+
      </div>
     )
   }
