@@ -31,7 +31,7 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
    
-    - name: Build Expense Tracker App
+    - name: Build Covid-19 Tracker App
       run: yarn build
       
     - name: Install Surge
